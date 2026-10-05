@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mnabar-bot",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-02",
+  "kv_namespaces": [
+    { "binding": "KV", "id": "7c0b3736adac4d6ebe1d3a47edf73a2b" }
+  ],
+  "vars": {
+    "WORKER_URL": "https://mnabar-bot.ososamr14.workers.dev",
+    "ADMIN_CHAT_ID": "8511534331",
+    "ADMIN_STUDENT_PHONE": "542562572"
+  },
+  "triggers": {
+    "crons": ["0 3 * * *"]
+  }
+}
